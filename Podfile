@@ -6,6 +6,5 @@ target 'WDBannerView' do
     
 pod 'AFNetworking'
 pod 'iCarousel'
-pod 'FSTextView'
 
 end
