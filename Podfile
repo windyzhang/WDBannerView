@@ -6,5 +6,7 @@ target 'WDBannerView' do
     
 pod 'AFNetworking'
 pod 'iCarousel'
+pod 'FSCalendar', '~> 2.7.9'
+pod 'YYKit'
 
 end

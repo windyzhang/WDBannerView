@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044E443920EC6F38009A9BBC /* WDGoAndBackCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 044E443820EC6F38009A9BBC /* WDGoAndBackCalendarCell.m */; };
+		044E443C20ECA822009A9BBC /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 044E443B20ECA822009A9BBC /* NSDate+Utilities.m */; };
+		04B89D7A20EB83EF0025671C /* WDCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B89D7920EB83EF0025671C /* WDCalendarViewController.m */; };
+		04B89D7D20EB8B850025671C /* WDGoAndBackCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B89D7C20EB8B850025671C /* WDGoAndBackCalendarView.m */; };
 		19BD36B9BE00DDBC0FDFF87C /* libPods-WDBannerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A38D49D60C8E8D82EE8A47CA /* libPods-WDBannerView.a */; };
 		1D3EC2082049360000665807 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EC2072049360000665807 /* AppDelegate.m */; };
 		1D3EC20B2049360000665807 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EC20A2049360000665807 /* ViewController.m */; };
@@ -17,6 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		044E443720EC6F38009A9BBC /* WDGoAndBackCalendarCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDGoAndBackCalendarCell.h; sourceTree = "<group>"; };
+		044E443820EC6F38009A9BBC /* WDGoAndBackCalendarCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDGoAndBackCalendarCell.m; sourceTree = "<group>"; };
+		044E443A20ECA822009A9BBC /* NSDate+Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
+		044E443B20ECA822009A9BBC /* NSDate+Utilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
+		04B89D7820EB83EF0025671C /* WDCalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDCalendarViewController.h; sourceTree = "<group>"; };
+		04B89D7920EB83EF0025671C /* WDCalendarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDCalendarViewController.m; sourceTree = "<group>"; };
+		04B89D7B20EB8B850025671C /* WDGoAndBackCalendarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDGoAndBackCalendarView.h; sourceTree = "<group>"; };
+		04B89D7C20EB8B850025671C /* WDGoAndBackCalendarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDGoAndBackCalendarView.m; sourceTree = "<group>"; };
 		1C62A2FFC5D64D256DB8D6BA /* Pods-WDBannerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WDBannerView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WDBannerView/Pods-WDBannerView.debug.xcconfig"; sourceTree = "<group>"; };
 		1D3EC2032049360000665807 /* WDBannerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WDBannerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D3EC2062049360000665807 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,6 +81,14 @@
 				1D3EC2072049360000665807 /* AppDelegate.m */,
 				1D3EC2092049360000665807 /* ViewController.h */,
 				1D3EC20A2049360000665807 /* ViewController.m */,
+				04B89D7820EB83EF0025671C /* WDCalendarViewController.h */,
+				04B89D7920EB83EF0025671C /* WDCalendarViewController.m */,
+				04B89D7B20EB8B850025671C /* WDGoAndBackCalendarView.h */,
+				04B89D7C20EB8B850025671C /* WDGoAndBackCalendarView.m */,
+				044E443720EC6F38009A9BBC /* WDGoAndBackCalendarCell.h */,
+				044E443820EC6F38009A9BBC /* WDGoAndBackCalendarCell.m */,
+				044E443A20ECA822009A9BBC /* NSDate+Utilities.h */,
+				044E443B20ECA822009A9BBC /* NSDate+Utilities.m */,
 				1D3EC20C2049360000665807 /* Main.storyboard */,
 				1D3EC20F2049360000665807 /* Assets.xcassets */,
 				1D3EC2112049360000665807 /* LaunchScreen.storyboard */,
@@ -106,8 +126,6 @@
 				1D3EC1FF2049360000665807 /* Sources */,
 				1D3EC2002049360000665807 /* Frameworks */,
 				1D3EC2012049360000665807 /* Resources */,
-				09EA0155F88A363B9E07A40C /* [CP] Embed Pods Frameworks */,
-				82BB855A0ABF95949D83AF1E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -165,21 +183,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		09EA0155F88A363B9E07A40C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WDBannerView/Pods-WDBannerView-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		41482B3D0F7592F7154CD9DC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -198,21 +201,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		82BB855A0ABF95949D83AF1E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WDBannerView/Pods-WDBannerView-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -220,9 +208,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B89D7D20EB8B850025671C /* WDGoAndBackCalendarView.m in Sources */,
+				044E443920EC6F38009A9BBC /* WDGoAndBackCalendarCell.m in Sources */,
 				1D3EC20B2049360000665807 /* ViewController.m in Sources */,
+				04B89D7A20EB83EF0025671C /* WDCalendarViewController.m in Sources */,
 				1D3EC2162049360000665807 /* main.m in Sources */,
 				1D3EC2082049360000665807 /* AppDelegate.m in Sources */,
+				044E443C20ECA822009A9BBC /* NSDate+Utilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +288,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -345,7 +337,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -360,6 +352,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LJ7XNHY268;
 				INFOPLIST_FILE = WDBannerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.windy.WDBannerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -375,6 +368,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LJ7XNHY268;
 				INFOPLIST_FILE = WDBannerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.windy.WDBannerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
