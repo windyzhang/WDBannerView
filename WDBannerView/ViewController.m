@@ -56,7 +56,7 @@
 }
 
 - (void)handleDisplayLink:(CADisplayLink *)displaylinkTimer{
-    NSLog(@"%ld",displaylinkTimer.preferredFramesPerSecond);
+    
     //销毁定时器
     //[_displaylinkTimer invalidate];
     //_displaylinkTimer = nil;
