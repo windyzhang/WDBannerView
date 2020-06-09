@@ -50,7 +50,7 @@
     
 }
 
--(void)setCellSelected:(BOOL)cellSelected {
+- (void)setCellSelected:(BOOL)cellSelected {
     
     if (self.selectedable) {
         if (cellSelected) {
